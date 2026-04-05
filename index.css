@@ -1,0 +1,130 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color: lightgray;
+}
+
+/* HEADER */
+.cbba-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+    align-items: center;
+}
+
+.cbba-logo {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.cbba-menu {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.cbba-menu span {
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* BANNER */
+.cbba-banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* TITULO */
+.cbba-titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.cbba-subtitulo {
+    display: block;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 50%;
+    padding: 5px;
+}
+
+/* SECCIONES */
+.cbba-secciones {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cbba-card {
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(145, 194, 243);
+}
+
+.cbba-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.cbba-card-titulo {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.cbba-card-texto {
+    text-align: center;
+}
+
+/* CTA */
+.cbba-cta {
+    text-align: center;
+    padding: 30px;
+}
+
+.cbba-linea {
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: black;
+    margin: 10px auto;
+}
+
+.cbba-boton {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+.cbba-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.cbba-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.titulo {
+    font-weight: bold;
+}
